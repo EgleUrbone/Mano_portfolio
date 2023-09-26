@@ -7,7 +7,7 @@ export const works = [
   },
   {
     id: 2,
-    title: 'Attempt at frontendmentor.io project',
+    title: 'Frontendmentor.io project',
     text: 'This is a newsletter sign-up form with a success message pop-up',
     url: 'https://www.frontendmentor.io/solutions/newsletter-singup-with-success-message-lb_k3f6EhZ',
   },

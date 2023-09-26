@@ -5,7 +5,7 @@
   justify-content: center;
   padding-left: 20px;
   padding-right: 20px;
-  background-image: url('/img/Untitle2.jpg');
+  background-image: url('/img/untitle2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,6 +20,10 @@
 
 .aboutText {
   font-weight: 500;
+}
+
+.resume {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
