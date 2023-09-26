@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Header navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
-      {/* <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} /> */}
+      <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
       <AboutPage />
       <WorksPage />
       <ContactPage />
