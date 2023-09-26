@@ -1,6 +1,6 @@
 .container {
   /* background-image: url('img/Untitled-1 copy.jpg'); */
-  background-image: url('img/Background.jpg');
+  background-image: url('/img/background.jpg');
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
