@@ -1,0 +1,42 @@
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: url('/img/Untitle2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(48, 43, 43);
+}
+
+.aboutTitle {
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+  color: white;
+}
+
+.aboutText {
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutTextCont {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1224px) {
+  .aboutTitle {
+    font-size: 55px;
+  }
+
+  .aboutTextCont {
+    width: 1100px;
+    padding-right: 200px;
+  }
+}

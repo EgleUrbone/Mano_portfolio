@@ -1,0 +1,89 @@
+.contactSection {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background-color: var(--green); */
+  background-image: linear-gradient(white, var(--green), var(--green), white);
+  position: relative;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+
+.contactTitle {
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+  color: white;
+}
+
+.contactList {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.listItemNoPointer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+
+.contactIcon {
+  width: 25px;
+}
+.liText {
+  margin: 0;
+}
+
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.up {
+  border: none;
+  background-color: transparent;
+}
+
+.arrowUp {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 768px) {
+  .contactInfo {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1224px) {
+  .contactInfo {
+    width: 1100px;
+  }
+}
