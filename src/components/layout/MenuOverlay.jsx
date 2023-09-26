@@ -7,16 +7,6 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
   return (
     <nav className={`${css.nav} ${navbarOpen ? css.open : css.closed}`}>
       <ul className={css.unlisted}>
-        {/* <li>
-          <Link to={'/'}
-            onClick={() => {
-              setNavbarOpen(false);
-            }}
-            href='/'
-          >
-            Home
-          </Link>
-        </li> */}
         <li>
           <Link
             to='#about'

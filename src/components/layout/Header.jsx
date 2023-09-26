@@ -6,7 +6,6 @@ export default function Header({ navbarOpen, setNavbarOpen }) {
       <header className={css.header}>
         <nav className={css.nav}>
           <img className={css.logo} src='img/ManoLogo.svg' alt='logoEU'></img>
-          {/* <button  onClick={() => setNavbarOpen(!navbarOpen)} className={`${css.icon} ${navbarOpen ? css.iconOpen : css.iconClose}`}> </button> */}
           <img
             onClick={() => setNavbarOpen(!navbarOpen)}
             className={`${css.icon} ${

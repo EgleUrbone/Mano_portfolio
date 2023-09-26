@@ -40,7 +40,6 @@
   position: absolute;
   overflow: hidden;
   z-index: -1;
-  /* background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2)); */
   background-image: url('img/Untitled-1 copy.jpg');
   background-size: cover;
   background-repeat: no-repeat;
