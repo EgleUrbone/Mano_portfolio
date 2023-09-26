@@ -8,7 +8,7 @@ import ContactPage from './components/pages/ContactPage';
 
 function App() {
   const [navbarOpen, setNavbarOpen] = useState(false);
-  console.log('navbarOpen ===', navbarOpen);
+  // console.log('navbarOpen ===', navbarOpen);
 
   navbarOpen
     ? (document.body.style.position = 'fixed')
