@@ -5,7 +5,7 @@ export default function Header({ navbarOpen, setNavbarOpen }) {
     <div className={css.container} id='home'>
       <header className={css.header}>
         <nav className={css.nav}>
-          <img className={css.logo} src='img/ManoLogo.svg' alt='logoEU'></img>
+          <img className={css.logo} src='img/manoLogo2.svg' alt='logoEU'></img>
           <img
             onClick={() => setNavbarOpen(!navbarOpen)}
             className={`${css.icon} ${
@@ -13,8 +13,8 @@ export default function Header({ navbarOpen, setNavbarOpen }) {
             }`}
             src={
               navbarOpen
-                ? '/img/plus-large-svgrepo-com.svg'
-                : '/img/plus-large-svgrepo-com (1).svg'
+                ? '/img/plus-svgrepo-second.svg'
+                : '/img/plus-svgrepo-first.svg'
             }
             alt='icon'
           ></img>

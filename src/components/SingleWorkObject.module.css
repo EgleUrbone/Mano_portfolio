@@ -1,6 +1,11 @@
 .singleWork {
   border-bottom: 1px solid;
   margin-top: 16px;
+  color: var(--text);
+}
+
+.singleWorkCont {
+  overflow-wrap: break-word;
 }
 
 .title {

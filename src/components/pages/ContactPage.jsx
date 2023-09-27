@@ -49,7 +49,7 @@ export default function ContactPage() {
       <button className={css.up} onClick={scrollToTop}>
         <img
           className={css.arrowUp}
-          src='/img/arrow-up-svgrepo-com.svg'
+          src='/img/arrow-up.svg'
           alt='arrow-up'
         />{' '}
       </button>

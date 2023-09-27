@@ -6,8 +6,7 @@
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  /* background-color: var(--green); */
-  background-image: linear-gradient(white, var(--green), var(--green), white);
+  background-image: linear-gradient(to bottom, white, var(--second),var(--second));
   position: relative;
 }
 
@@ -21,7 +20,7 @@
 .contactTitle {
   font-family: 'DM Serif Display', serif;
   font-size: 50px;
-  color: white;
+  color: var(--first);
 }
 
 .contactList {
@@ -52,6 +51,7 @@
 }
 .liText {
   margin: 0;
+  color: var(--text);
 }
 
 .tag {
@@ -67,7 +67,7 @@
 }
 
 .arrowUp {
-  height: 50px;
+  height: 40px;
   position: absolute;
   bottom: 0;
   left: 50%;
