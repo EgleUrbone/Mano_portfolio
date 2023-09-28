@@ -17,6 +17,7 @@
   font-family: 'DM Serif Display', serif;
   font-size: 50px;
   color: var(--first);
+  text-shadow: 2px 2px 2px var(--second);
 }
 
 @media screen and (min-width: 768px) {

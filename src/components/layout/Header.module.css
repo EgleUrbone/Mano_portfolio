@@ -21,7 +21,6 @@
   border: none;
   height: 50px;
   z-index: 110;
-  fill: #b6b592;
   cursor: pointer;
 }
 
@@ -49,9 +48,10 @@
 }
 
 .mainLine {
-  color: #b6b592;
+  color: #c1bf9b;
   font-family: 'DM Serif Display', serif;
   font-size: 40px;
+  text-shadow: 2px 2px 2px var(--fifth);
 }
 
 .arrow {
