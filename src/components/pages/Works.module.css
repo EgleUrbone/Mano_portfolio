@@ -1,5 +1,4 @@
 .worksSection {
-  height: 100vh;
   padding-left: 20px;
   padding-right: 20px;
   display: flex;
@@ -17,157 +16,8 @@
 .worksTitle {
   font-family: 'DM Serif Display', serif;
   font-size: 50px;
-}
-
-@keyframes moveInCircle {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes moveVertical {
-  0% {
-    transform: translateY(-50%);
-  }
-  50% {
-    transform: translateY(50%);
-  }
-  100% {
-    transform: translateY(-50%);
-  }
-}
-
-@keyframes moveHorizontal {
-  0% {
-    transform: translateX(-50%) translateY(-10%);
-  }
-  50% {
-    transform: translateX(50%) translateY(10%);
-  }
-  100% {
-    transform: translateX(-50%) translateY(-10%);
-  }
-}
-
-.gradientBg {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  overflow: hidden;
-  /* background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2)); */
-  /* background-image: url('img/Untitled-1 copy.jpg'); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  left: 0;
-  top: 0;
-}
-svg {
-  display: none;
-}
-
-.gradientContainter {
-  width: 100%;
-  height: 100%;
-}
-
-.g1 {
-  position: absolute;
-  background: radial-gradient(
-      circle at center,
-      rgba(var(--color-1), 0.8) 0,
-      rgba(var(--color-1), 0) 45%
-    )
-    no-repeat;
-  mix-blend-mode: var(--blending);
-  width: var(--circle-size);
-  height: var(--circle-size);
-  top: calc(50% - var(--circle-size) / 2);
-  left: calc(50% - var(--circle-size) / 2);
-  opacity: 1;
-
-  transform-origin: center center;
-  animation: moveVertical 30s ease infinite;
-}
-
-.g2 {
-  position: absolute;
-  background: radial-gradient(
-      circle at center,
-      rgba(var(--color-2), 0.8) 0,
-      rgba(var(--color-2), 0) 45%
-    )
-    no-repeat;
-  mix-blend-mode: var(--blending);
-  width: var(--circle-size);
-  height: var(--circle-size);
-  top: calc(50% - var(--circle-size) / 2);
-  left: calc(50% - var(--circle-size) / 2);
-  opacity: 1;
-
-  transform-origin: calc(50% - 400px);
-  animation: moveInCircle 20s reverse infinite;
-}
-
-.g3 {
-  position: absolute;
-  background: radial-gradient(
-      circle at center,
-      rgba(var(--color-3), 0.8) 0,
-      rgba(var(--color-3), 0) 45%
-    )
-    no-repeat;
-  mix-blend-mode: var(--blending);
-  width: var(--circle-size);
-  height: var(--circle-size);
-  top: calc(50% - var(--circle-size) / 2 + 200px);
-  left: calc(50% - var(--circle-size) / 2 - 500px);
-  opacity: 1;
-
-  transform-origin: calc(50% + 400px);
-  animation: moveInCircle 40s linear infinite;
-}
-.g4 {
-  position: absolute;
-  background: radial-gradient(
-      circle at center,
-      rgba(var(--color-4), 0.8) 0,
-      rgba(var(--color-4), 0) 45%
-    )
-    no-repeat;
-  mix-blend-mode: var(--blending);
-  width: var(--circle-size);
-  height: var(--circle-size);
-  top: calc(50% - var(--circle-size) / 2);
-  left: calc(50% - var(--circle-size) / 2);
-  opacity: 0.7;
-
-  transform-origin: calc(50% - 200px);
-  animation: moveHorizontal 40s ease infinite;
-}
-.g5 {
-  position: absolute;
-  background: radial-gradient(
-      circle at center,
-      rgba(var(--color-3), 0.8) 0,
-      rgba(var(--color-3), 0) 45%
-    )
-    no-repeat;
-  mix-blend-mode: var(--blending);
-  width: (var(--circle-size) * 2);
-  height: (var(--circle-size) * 2);
-  top: calc(50% - var(--circle-size));
-  left: calc(50% - var(--circle-size));
-  opacity: 1;
-
-  transform-origin: calc(50% - 800px) calc(50% + 200px);
-  animation: moveInCircle 20s ease infinite;
+  color: var(--first);
+  text-shadow: 2px 2px 2px var(--second);
 }
 
 @media screen and (min-width: 768px) {
@@ -179,63 +29,14 @@ svg {
 }
 
 @media screen and (min-width: 1224px) {
+  .worksTitle {
+    font-size: 70px;
+  }
+  
   .workText {
     width: 1100px;
     margin-right: auto;
     margin-left: auto;
+    font-size: 18px;
   }
 }
-
-@media screen and (min-width: 1440px) {
-  .g1 {
-    width: 80%;
-    height: 80%;
-    background: radial-gradient(
-      circle at center,
-      rgba(var(--color-1), 0.8) 0,
-      rgba(var(--color-1), 0) 30%
-    )
-    no-repeat;
-  }
-  .g2 {
-    width: 80%;
-    height: 80%;
-    background: radial-gradient(
-      circle at center,
-      rgba(var(--color-2), 0.8) 0,
-      rgba(var(--color-2), 0) 30%
-    )
-    no-repeat;
-  }
-  .g3 {
-    width: 80%;
-    height: 80%;
-    background: radial-gradient(
-      circle at center,
-      rgba(var(--color-3), 0.8) 0,
-      rgba(var(--color-3), 0) 30%
-    )
-    no-repeat;
-  }
-  .g4 {
-    width: 80%;
-    height: 80%;
-    background: radial-gradient(
-      circle at center,
-      rgba(var(--color-4), 0.8) 0,
-      rgba(var(--color-4), 0) 30%
-    )
-    no-repeat;
-  }
-  .g5 {
-    width: 80%;
-    height: 80%;
-    background: radial-gradient(
-      circle at center,
-      rgba(var(--color-3), 0.8) 0,
-      rgba(var(--color-3), 0) 30%
-    )
-    no-repeat;
-  }
-}
-

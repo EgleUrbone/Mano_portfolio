@@ -6,8 +6,13 @@
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  /* background-color: var(--green); */
-  background-image: linear-gradient(white, var(--green), var(--green), white);
+  background-image: linear-gradient(
+    to bottom,
+    white,
+    var(--second),
+    var(--second),
+    var(--second)
+  );
   position: relative;
 }
 
@@ -15,13 +20,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
+  align-items: center;
 }
 
 .contactTitle {
   font-family: 'DM Serif Display', serif;
   font-size: 50px;
-  color: white;
+  color: var(--first);
+  text-shadow: 2px 2px 2px var(--fifth);
 }
 
 .contactList {
@@ -29,7 +35,9 @@
   padding-left: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
+  
 }
 
 .listItem {
@@ -52,6 +60,7 @@
 }
 .liText {
   margin: 0;
+  color: var(--text);
 }
 
 .tag {
@@ -67,7 +76,7 @@
 }
 
 .arrowUp {
-  height: 50px;
+  height: 40px;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -83,6 +92,14 @@
 }
 
 @media screen and (min-width: 1224px) {
+  .contactTitle {
+    font-size: 70px;
+  }
+
+  .liText {
+    font-size: 18px;
+  }
+  
   .contactInfo {
     width: 1100px;
   }
