@@ -54,9 +54,10 @@
 
 @media screen and (min-width: 768px) {
   .aboutTextCont {
-    width: 70%;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
   }
 }
 
@@ -66,24 +67,12 @@
     margin-bottom: 70px;
   }
 
-  .aboutTextCont {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
   .aboutTitle {
     font-size: 60px;
   }
 
   .aboutText {
     font-size: 18px;
-  }
-}
-
-@media screen and (min-width: 1224px) {
-  .aboutTextCont {
-    padding-left: 160px;
-    padding-right: 160px;
   }
 }
 
@@ -99,10 +88,7 @@
     margin-bottom: 200px;
   }
 
-  .aboutTextCont {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
+ 
 
   .aboutTitle {
     font-size: 70px;
