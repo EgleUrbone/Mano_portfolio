@@ -12,7 +12,7 @@ export default function AboutPage() {
             am hooked. I am determined to learn, get all the information that I
             can to one day become the best at what I do.
           </p>
-          <a className={css.resume} href='/img/ManoCV-en.pdf' target='_blank'>
+          <a className={css.resume} href='/img/manoCV.pdf' target='_blank'>
             My RESUME
           </a>
         </div>
