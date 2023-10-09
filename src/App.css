@@ -8,12 +8,18 @@ html {
   font-size: 62.5%;
   font-family: 'DM Serif Display', serif;
   font-family: 'Raleway', sans-serif;
-  --first: #b16406;
+  --first: #f56720;
+  --second: #ffae77;
+  --third: #ffd9a0;
+  --fourth: #ffc5a0;
+  --fifth: #b72803;
+  --text: #3f2202;
+  /* --first: #b16406;
   --second: #b6b592;
   --third: #efcbb4;
   --fourth: #f4e8db;
   --fifth: #e3a60c;
-  --text: #3f2202;
+  --text: #3f2202; */
 }
 
 p,
