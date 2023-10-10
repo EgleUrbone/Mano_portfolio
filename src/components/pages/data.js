@@ -11,4 +11,10 @@ export const works = [
     text: 'This is a newsletter sign-up form with a success message pop-up using HTML, CSS and JS',
     url: 'https://www.frontendmentor.io/solutions/newsletter-singup-with-success-message-lb_k3f6EhZ',
   },
+  {
+    id: 3,
+    title: 'Simple todo list app',
+    text: 'It is a simple app to make your to do list for the day. Made using HTML, SCSS, React, Vite, react icons',
+    url: 'https://simple-todo-eu.netlify.app/',
+  },
 ]
